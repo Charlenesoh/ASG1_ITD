@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="WashingHands" size="21.590000 29.338326" />
+    <ImageTarget name="TypesofVaccine" size="21.590000 26.622255" />
+    <ImageTarget name="HomeRecovery" size="21.590000 35.455139" />
+    <ImageTarget name="HealthProtocols" size="21.590000 28.362198" />
+    <ImageTarget name="FnBestablishments" size="21.590000 25.699461" />
+    <ImageTarget name="BackToSchool" size="21.590000 30.156540" />
+    <ImageTarget name="ARTTestKit" size="21.590000 15.131995" />
+  </Tracking>
+</QCARConfig>

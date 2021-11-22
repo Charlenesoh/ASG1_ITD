@@ -237,14 +237,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: Types of Vaccine
+  mTrackableName: TypesofVaccine
   mInitializedInEditor: 1
-  mDataSetPath: 
-  mAspectRatio: 1.2330828
-  mImageTargetType: 3
-  mWidth: 0.16219512
-  mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 2338595885f7cab49b98de4e91e4fca7, type: 3}
+  mDataSetPath: Vuforia/ITD_ASG1.xml
+  mAspectRatio: 1.2330827
+  mImageTargetType: 0
+  mWidth: 21.59
+  mHeight: 26.622255
+  mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
 --- !u!4 &12156889
 Transform:
@@ -254,7 +254,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 12156883}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.137, y: 0, z: 0}
+  m_LocalPosition: {x: -61.3, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -267,7 +267,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'wash handsMaterial
+  m_Name: 'ARTTestKitMaterial
 
     -49678'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -282,7 +282,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: e6671d812a2227a4dace8f5823582940, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1994d5c63c3a4c52bcf82de008c3c892, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -296,7 +296,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'wash handsMaterial
+  m_Name: 'WashingHandsMaterial
 
     41526'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -311,7 +311,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: aeaf2fb044de65f419f746ae50d1899b, type: 3}
+        m_Texture: {fileID: 2800000, guid: add3f7df120d48f18555cd583e6b14a5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -325,7 +325,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'wash handsMaterial
+  m_Name: 'HealthProtocolsMaterial
 
     -50358'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -340,7 +340,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 8ce478822c3cd5f448b400eebb065074, type: 3}
+        m_Texture: {fileID: 2800000, guid: d1acadcc9cef4d7aad5d7406e522a632, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -365,7 +365,7 @@ Mesh:
     vertexCount: 4
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.07078652, y: 0, z: 0.1}
+      m_Extent: {x: 10.795, y: 0, z: 14.669163}
   m_Shapes:
     vertices: []
     shapes: []
@@ -444,7 +444,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 669f92bd00000000cdccccbd000000000000803f000000000000000000000000669f92bd00000000cdcccc3d000000000000803f00000000000000000000803f669f923d00000000cdccccbd000000000000803f000000000000803f00000000669f923d00000000cdcccc3d000000000000803f000000000000803f0000803f
+    _typelessdata: 52b82cc100000000984071c1000000000000803f00000000000000000000000052b82cc10000000098407141000000000000803f00000000000000000000803f52b82c4100000000984071c1000000000000803f000000000000803f0000000052b82c410000000098407141000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -640,7 +640,7 @@ Mesh:
     vertexCount: 4
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.07078652, y: 0, z: 0.1}
+      m_Extent: {x: 10.795, y: 0, z: 14.669163}
   m_Shapes:
     vertices: []
     shapes: []
@@ -719,7 +719,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: cdccccbd00000000498a8fbd000000000000803f000000000000000000000000cdccccbd00000000498a8f3d000000000000803f00000000000000000000803fcdcccc3d00000000498a8fbd000000000000803f000000000000803f00000000cdcccc3d00000000498a8f3d000000000000803f000000000000803f0000803f
+    _typelessdata: 52b82cc100000000a71cf2c0000000000000803f00000000000000000000000052b82cc100000000a71cf240000000000000803f00000000000000000000803f52b82c4100000000a71cf2c0000000000000803f000000000000803f0000000052b82c4100000000a71cf240000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -804,7 +804,7 @@ Mesh:
     vertexCount: 4
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.07078652, y: 0, z: 0.1}
+      m_Extent: {x: 10.795, y: 0, z: 14.669163}
   m_Shapes:
     vertices: []
     shapes: []
@@ -883,7 +883,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 330dacbd00000000cdccccbd000000000000803f000000000000000000000000330dacbd00000000cdcccc3d000000000000803f00000000000000000000803f330dac3d00000000cdccccbd000000000000803f000000000000803f00000000330dac3d00000000cdcccc3d000000000000803f000000000000803f0000803f
+    _typelessdata: 53b82cc1000000007f984dc1000000000000803f00000000000000000000000053b82cc1000000007f984d41000000000000803f00000000000000000000803f53b82c41000000007f984dc1000000000000803f000000000000803f0000000053b82c41000000007f984d41000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -950,6 +950,105 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &384647666
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 384647670}
+  - component: {fileID: 384647669}
+  - component: {fileID: 384647668}
+  - component: {fileID: 384647667}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &384647667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384647666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &384647668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384647666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &384647669
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384647666}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &384647670
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384647666}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1 &437712866
 GameObject:
   m_ObjectHideFlags: 0
@@ -1063,14 +1162,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: ART Test Kit
+  mTrackableName: ARTTestKit
   mInitializedInEditor: 1
-  mDataSetPath: 
-  mAspectRatio: 0.70087975
-  mImageTargetType: 3
-  mWidth: 0.2
-  mHeight: 0.14017595
-  mRuntimeTexture: {fileID: 2800000, guid: e6671d812a2227a4dace8f5823582940, type: 3}
+  mDataSetPath: Vuforia/ITD_ASG1.xml
+  mAspectRatio: 0.7008798
+  mImageTargetType: 0
+  mWidth: 21.59
+  mHeight: 15.131995
+  mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
 --- !u!4 &437712872
 Transform:
@@ -1080,7 +1179,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 437712866}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.169, y: 0, z: 0}
+  m_LocalPosition: {x: 97.2, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1104,7 +1203,7 @@ Mesh:
     vertexCount: 4
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.07078652, y: 0, z: 0.1}
+      m_Extent: {x: 0.1, y: 0, z: 0.1}
   m_Shapes:
     vertices: []
     shapes: []
@@ -1183,7 +1282,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 86f890bd00000000cdccccbd000000000000803f00000000000000000000000086f890bd00000000cdcccc3d000000000000803f00000000000000000000803f86f8903d00000000cdccccbd000000000000803f000000000000803f0000000086f8903d00000000cdcccc3d000000000000803f000000000000803f0000803f
+    _typelessdata: 52b82cc100000000e4b46ac1000000000000803f00000000000000000000000052b82cc100000000e4b46a41000000000000803f00000000000000000000803f52b82c4100000000e4b46ac1000000000000803f000000000000803f0000000052b82c4100000000e4b46a41000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -1363,14 +1462,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: wash hands
+  mTrackableName: WashingHands
   mInitializedInEditor: 1
-  mDataSetPath: 
-  mAspectRatio: 1.4126984
-  mImageTargetType: 3
-  mWidth: 0.14157304
-  mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: aeaf2fb044de65f419f746ae50d1899b, type: 3}
+  mDataSetPath: Vuforia/ITD_ASG1.xml
+  mAspectRatio: 1.3588849
+  mImageTargetType: 0
+  mWidth: 21.59
+  mHeight: 29.338326
+  mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
 --- !u!4 &466831321
 Transform:
@@ -1380,7 +1479,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 466831315}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.015, y: 0, z: 0}
+  m_LocalPosition: {x: 123.9, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1499,14 +1598,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: Health Protocols
+  mTrackableName: HealthProtocols
   mInitializedInEditor: 1
-  mDataSetPath: 
-  mAspectRatio: 1.313673
-  mImageTargetType: 3
-  mWidth: 0.1522449
-  mHeight: 0.20000002
-  mRuntimeTexture: {fileID: 2800000, guid: 8ce478822c3cd5f448b400eebb065074, type: 3}
+  mDataSetPath: Vuforia/ITD_ASG1.xml
+  mAspectRatio: 1.3136729
+  mImageTargetType: 0
+  mWidth: 21.59
+  mHeight: 28.362198
+  mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
 --- !u!4 &521647780
 Transform:
@@ -1529,7 +1628,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'wash handsMaterial
+  m_Name: 'FnBestablishmentsMaterial
 
     -50086'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -1544,13 +1643,79 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: aaeeebb65498596428dd2d2684f6352e, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0b1068fccdf24d80886228a50f75098c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
     m_Colors:
     - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
   m_BuildTextureStacks: []
+--- !u!1 &937854717
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 937854720}
+  - component: {fileID: 937854719}
+  - component: {fileID: 937854718}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &937854718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 937854717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &937854719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 937854717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &937854720
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 937854717}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &997132076
 GameObject:
   m_ObjectHideFlags: 0
@@ -1664,14 +1829,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: F&B establishments
+  mTrackableName: FnBestablishments
   mInitializedInEditor: 1
-  mDataSetPath: 
+  mDataSetPath: Vuforia/ITD_ASG1.xml
   mAspectRatio: 1.1903409
-  mImageTargetType: 3
-  mWidth: 0.1680191
-  mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: aaeeebb65498596428dd2d2684f6352e, type: 3}
+  mImageTargetType: 0
+  mWidth: 21.590002
+  mHeight: 25.699461
+  mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
 --- !u!4 &997132082
 Transform:
@@ -1681,7 +1846,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 997132076}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.54, y: 0, z: 0}
+  m_LocalPosition: {x: 33.4, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1705,7 +1870,7 @@ Mesh:
     vertexCount: 4
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.07078652, y: 0, z: 0.1}
+      m_Extent: {x: 10.795, y: 0, z: 14.669163}
   m_Shapes:
     vertices: []
     shapes: []
@@ -1784,7 +1949,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 16e69bbd00000000ceccccbd000000000000803f00000000000000000000000016e69bbd00000000cecccc3d000000000000803f00000000000000000000803f16e69b3d00000000ceccccbd000000000000803f000000000000803f0000000016e69b3d00000000cecccc3d000000000000803f000000000000803f0000803f
+    _typelessdata: 52b82cc100000000c8e562c1000000000000803f00000000000000000000000052b82cc100000000c8e56241000000000000803f00000000000000000000803f52b82c4100000000c8e562c1000000000000803f000000000000803f0000000052b82c4100000000c8e56241000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -1858,7 +2023,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'wash handsMaterial
+  m_Name: 'BackToSchoolMaterial
 
     -49866'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -1873,7 +2038,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 70ac63fb77c727640a05fda07af992c8, type: 3}
+        m_Texture: {fileID: 2800000, guid: d7f484f2555140419d171b628c9f2124, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -1993,14 +2158,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: Home Recovery
+  mTrackableName: HomeRecovery
   mInitializedInEditor: 1
-  mDataSetPath: 
-  mAspectRatio: 1.6422018
-  mImageTargetType: 3
-  mWidth: 0.12178771
-  mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: cbb8e5b6b6f3d9e449f8e645988b2cf9, type: 3}
+  mDataSetPath: Vuforia/ITD_ASG1.xml
+  mAspectRatio: 1.6422019
+  mImageTargetType: 0
+  mWidth: 21.59
+  mHeight: 35.45514
+  mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
 --- !u!4 &1198412587
 Transform:
@@ -2010,7 +2175,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1198412581}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.925, y: 0, z: 0}
+  m_LocalPosition: {x: -30.6, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2034,7 +2199,7 @@ Mesh:
     vertexCount: 4
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.07078652, y: 0, z: 0.1}
+      m_Extent: {x: 10.795, y: 0, z: 14.669163}
   m_Shapes:
     vertices: []
     shapes: []
@@ -2113,7 +2278,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 7a16a6bd00000000cdccccbd000000000000803f0000000000000000000000007a16a6bd00000000cdcccc3d000000000000803f00000000000000000000803f7a16a63d00000000cdccccbd000000000000803f000000000000803f000000007a16a63d00000000cdcccc3d000000000000803f000000000000803f0000803f
+    _typelessdata: 52b82cc10000000061fa54c1000000000000803f00000000000000000000000052b82cc10000000061fa5441000000000000803f00000000000000000000803f52b82c410000000061fa54c1000000000000803f000000000000803f0000000052b82c410000000061fa5441000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -2187,7 +2352,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'wash handsMaterial
+  m_Name: 'HomeRecoveryMaterial
 
     -50558'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -2202,7 +2367,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: cbb8e5b6b6f3d9e449f8e645988b2cf9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 119b788831314e46bc7456fe554f1a03, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -2322,14 +2487,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: Back To School
+  mTrackableName: BackToSchool
   mInitializedInEditor: 1
-  mDataSetPath: 
-  mAspectRatio: 1.3967829
-  mImageTargetType: 3
-  mWidth: 0.14318618
-  mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 70ac63fb77c727640a05fda07af992c8, type: 3}
+  mDataSetPath: Vuforia/ITD_ASG1.xml
+  mAspectRatio: 1.3967828
+  mImageTargetType: 0
+  mWidth: 21.59
+  mHeight: 30.15654
+  mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
 --- !u!4 &1618929991
 Transform:
@@ -2339,7 +2504,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1618929985}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.354, y: 0, z: 0}
+  m_LocalPosition: {x: 64.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2364,7 +2529,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &1687258582
 AudioListener:
   m_ObjectHideFlags: 0
@@ -2509,7 +2674,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'wash handsMaterial
+  m_Name: 'TypesofVaccineMaterial
 
     -50742'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -2524,7 +2689,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 2338595885f7cab49b98de4e91e4fca7, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4b8c9ab2a59342e0b5578d5702f27080, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -2549,7 +2714,7 @@ Mesh:
     vertexCount: 4
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.07078652, y: 0, z: 0.1}
+      m_Extent: {x: 10.795, y: 0, z: 14.669163}
   m_Shapes:
     vertices: []
     shapes: []
@@ -2628,7 +2793,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: d66b79bd00000000cdccccbd000000000000803f000000000000000000000000d66b79bd00000000cdcccc3d000000000000803f00000000000000000000803fd66b793d00000000cdccccbd000000000000803f000000000000803f00000000d66b793d00000000cdcccc3d000000000000803f000000000000803f0000803f
+    _typelessdata: 52b82cc10000000010d28dc1000000000000803f00000000000000000000000052b82cc10000000010d28d41000000000000803f00000000000000000000803f52b82c410000000010d28dc1000000000000803f000000000000803f0000000052b82c410000000010d28d41000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
