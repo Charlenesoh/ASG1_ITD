@@ -523,7 +523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
-  quizManager: {fileID: 0}
+  quizManager: {fileID: 1806355847}
 --- !u!114 &537733328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -687,7 +687,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
-  quizManager: {fileID: 0}
+  quizManager: {fileID: 1806355847}
 --- !u!114 &657283617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -851,7 +851,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
-  quizManager: {fileID: 0}
+  quizManager: {fileID: 1806355847}
 --- !u!114 &735119640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1273,7 +1273,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
-  quizManager: {fileID: 0}
+  quizManager: {fileID: 1806355847}
 --- !u!114 &1200644439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1848,7 +1848,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
-  quizManager: {fileID: 0}
+  quizManager: {fileID: 1806355847}
 --- !u!114 &1928887748
 MonoBehaviour:
   m_ObjectHideFlags: 0
