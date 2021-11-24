@@ -8,7 +8,6 @@ public class Dictionary : MonoBehaviour
     private Dictionary<GameObject, bool> trackedObjectStatus = new Dictionary<GameObject, bool>();
 
     public Text displayText;
-    bool pog;
 
     private void Update()
     {
@@ -20,7 +19,7 @@ public class Dictionary : MonoBehaviour
         if (objectToTrack != null)
         {
             trackedObjectStatus[objectToTrack] = true;
-            displayText.text = "";
+            
         }
         else
         {
@@ -33,7 +32,7 @@ public class Dictionary : MonoBehaviour
         if (objectToTrack != null)
         {
             trackedObjectStatus[objectToTrack] = false;
-            displayText.text = "finding object";
+            displayText.text = "";
         }
         else
         {
@@ -48,6 +47,7 @@ public class Dictionary : MonoBehaviour
             foreach (KeyValuePair<GameObject, bool> objectStatus in trackedObjectStatus)
             {
                 displayText.text += objectStatus.Key.name;
+                
             }
         }
     }
