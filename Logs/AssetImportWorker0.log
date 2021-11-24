@@ -3820,3 +3820,4 @@ Received Import Request.
 Start importing Assets/trimmed.jpeg using Guid(e9167904f04c9f74cac062fe8cd7535d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e418779015eb857d1c1efdaa52246ba4') in 0.025657 seconds 
   Import took 0.032082 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
