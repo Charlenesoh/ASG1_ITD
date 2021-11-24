@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class QuizManager : MonoBehaviour
 {
+    // variable settings
     public List<QuestionsAndAnswers> QnA;
     public GameObject[] options;
     public int currentQuestions;
@@ -19,6 +20,7 @@ public class QuizManager : MonoBehaviour
     public GameObject quizPanel;
     public GameObject GameOverPanel;
 
+    // counting question and generating steps
     private void Start()
     {
         totalQuestion = QnA.Count;
@@ -26,11 +28,13 @@ public class QuizManager : MonoBehaviour
         generateQuestions();
     }
 
+    // restart the game function
     public void restart()
     {
         SceneManager.LoadScene("Quiz");
     }
 
+    // when game ends, lead players to game over scene
     void GameOver()
     {
         quizPanel.SetActive(false);
@@ -38,6 +42,7 @@ public class QuizManager : MonoBehaviour
         ScoreTxt.text = score + "/" + totalQuestion;
     }
 
+    // when players answer the question correctly
     public void Correct()
     {
         score += 1; 
@@ -45,11 +50,14 @@ public class QuizManager : MonoBehaviour
         generateQuestions();
     }
 
+    // when players answers the question wrongly
     public void wrong()
     {
         QnA.RemoveAt(currentQuestions);
         generateQuestions();
     }
+
+    // setting of answers for questions 
     void SetAnswers()
     {
         for ( int i = 0; i < options.Length; i++)
@@ -65,10 +73,13 @@ public class QuizManager : MonoBehaviour
         }
     }
 
+    // loading to mainmenu with the back to main menu button 
     public void MainMenu()
     {
         SceneManager.LoadScene("MainMenu");
     }
+
+    // generating the questions 
     void generateQuestions()
     {
         if (QnA.Count > 0)

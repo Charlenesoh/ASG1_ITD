@@ -9,11 +9,13 @@ public class Dictionary : MonoBehaviour
 
     public Text displayText;
 
+    // run update object tracked name onto text 
     private void Update()
     {
         UpdateObjectStatus();
     }
 
+    // track object tag 
     public void ObjectTracked(GameObject objectToTrack)
     {
         if (objectToTrack != null)
@@ -27,6 +29,7 @@ public class Dictionary : MonoBehaviour
         }
     }
 
+    // when object is not seen on screen / tracked on screen
     public void ObjectLost(GameObject objectToTrack)
     {
         if (objectToTrack != null)
@@ -40,6 +43,7 @@ public class Dictionary : MonoBehaviour
         }
     }
 
+    // update status
     void UpdateObjectStatus()
     {
         if (trackedObjectStatus.Count > 0)

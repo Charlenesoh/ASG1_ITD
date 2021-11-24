@@ -5,6 +5,7 @@ using Vuforia;
 
 public class ARToggle : MonoBehaviour
 {
+    // toggle AR camera on and off 
     public void Toggling()
     {
         if(VuforiaBehaviour.Instance.enabled)

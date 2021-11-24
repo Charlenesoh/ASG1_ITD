@@ -8,6 +8,7 @@ public class RotateObject : MonoBehaviour
     [SerializeField] private float speed;
     public GameObject Object;
 
+    // Another alternative to code for using keyboard keys instead of buttons
      /*void Update()
     {
         if (Input.GetKey(KeyCode.W))
@@ -35,11 +36,14 @@ public class RotateObject : MonoBehaviour
         transform.Rotate(rotation * speed * Time.deltaTime);
     }*/
 
+    // Button functions to move object upwards
     public void Vertical()
     {
         rotation = Vector3.up;
         Object.transform.Rotate(rotation * speed * Time.deltaTime);
     }
+
+    // Button functions to move object sideways
     public void Horizontal()
     {
         rotation = Vector3.left;

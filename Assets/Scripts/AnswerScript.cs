@@ -6,6 +6,8 @@ public class AnswerScript : MonoBehaviour
 {
     public bool isCorrect = false;
     public QuizManager quizManager;
+
+    // Check if answer is correct or wrong
     public void Answers()
     {
         if (isCorrect)
